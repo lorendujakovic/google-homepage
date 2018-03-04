@@ -15,7 +15,7 @@ ul{
   background-color: #f3f3f3;
 }
 li{
-  float: left;
+  float: right;
 }
 li a{
   display: block;
@@ -31,4 +31,15 @@ li a:hover:not(.active){
 li a.active{
   color: white;
   background-color: #4CAF50;
+}
+footer{
+  margin: 0;
+  padding: 0;
+  -webkit-center-radius
+}
+nav{
+  float: left;
+}
+.Unternehmen{
+  float: center;
 }
