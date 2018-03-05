@@ -6,7 +6,7 @@ center {
     display: block;
     text-align: -webkit-center;
 }
-ul{
+ul .Anmelden{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,21 +14,21 @@ ul{
   border: 1px solid #e7e7e7;
   background-color: #f3f3f3;
 }
-li{
+li .Anmelden{
   float: right;
 }
-li a{
+li a .Anmelden{
   display: block;
   color: #666;
   text-align: center;
   padding: 14px 16px
   text-decoration: none;
 }
-li a:hover:not(.active){
+li a .Anmelden :hover:not(.active){
   color: white
   background-color: #ddd;
 }
-li a.active{
+li a.active .Anmelden{
   color: white;
   background-color: #4CAF50;
 }
@@ -37,9 +37,28 @@ footer{
   padding: 0;
   -webkit-center-radius
 }
-nav{
-  float: left;
-}
+
 .Unternehmen{
   float: center;
+}
+nav .schweiz .nav .Unternehmen{
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px
+  text-decoration: none;
+
+}
+.google-img{
+  box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+  border: auto;
 }
